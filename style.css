@@ -1,0 +1,19 @@
+.heading{
+    font-size: 30px;
+    margin-top: 37px;
+}
+
+.btn-primary:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+canvas{
+    animation-name: REDDOT;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes REDDOT{
+    from{box-shadow: 1px 1px 38px RED};
+    to{box-shadow: 1px 1px 38px yellow;}
+}
